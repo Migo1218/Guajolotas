@@ -15,7 +15,7 @@ const Logo = () => {
     return (
         <div>
            
-            <Logotemplate src={logo} alt="logo" onClick={()=>navegar(`/Guajolotas`)}/>
+            <Logotemplate src={logo} alt="logo" onClick={()=>navegar(`/`)}/>
            
             
         </div>

@@ -44,7 +44,7 @@ export default function AppRouter() {
       <LogoCarrito />
       <Logo />
         <Routes>
-          <Route exact path="/Guajolotas" element={<NavbarLayout component={Guajolotas} />} />
+          <Route exact path="/" element={<NavbarLayout component={Guajolotas} />} />
           <Route exact path="/Guajolotas/:id" element={<GuajolotaDetailView />} />
           <Route exact path="/Carrito" element={<Carrito />} />
           <Route exact path="/Modcarrito" element={<Modcarrito />} />
